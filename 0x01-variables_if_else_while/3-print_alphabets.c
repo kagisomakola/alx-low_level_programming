@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -Entry point
  * Return: Always 0 (Success)
@@ -6,23 +7,9 @@
 
 int main(void)
 {
-	char C;
+char i;
 
-	char d;
+for(i = 'a'; i <= 'z'; i++;
 
-	C = 'a';
-	d = 'A';
-	while
-		(C <= 'z') {
-			putchar(C);
-			C++;
-		}
-	while
-		(d <= 'z') {
-			putchar (d);
-			d++;
-
-		}
-	return (0);
 }
 
