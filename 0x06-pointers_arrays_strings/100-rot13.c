@@ -12,7 +12,9 @@ char *rot13(char *s)
 	int x;
 	char datal[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
 	for (t = 0; s[t] != '\0'; t++)
+
 	{
 		for (x = 0; x < 52; x++)
 		{
