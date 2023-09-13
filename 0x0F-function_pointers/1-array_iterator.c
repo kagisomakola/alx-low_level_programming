@@ -8,11 +8,11 @@
  * @action: pointer to print in regular or hex
  * Return: void
  */
-oid array_iterator(int *array, size_t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i
+	unsigned int i;
 
-		if (aaray == NULL || action == NULL)
+		if (array == NULL || action == NULL)
 			return;
 
 	for (i = 0; i < size; i++)

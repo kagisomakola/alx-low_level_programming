@@ -44,7 +44,7 @@ int op_mul(int a, int b)
  * @b: the second number.
  * Return: the remainder of the division of a by b.
  */
-int op_mod(int a, int b);
+int op_mod(int a, int b)
 {
 	return (a % b);
 }
