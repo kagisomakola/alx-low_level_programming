@@ -32,10 +32,11 @@ int op_sub(int a, int b)
  * op_mul - Returns the product of two numbers.
  * @a: the first number.
  * @b: the second number.
+ * Return: the product of a and b.
  */
 int op_mul(int a, int b)
 {
-	return (a / b);
+	return (a * b);
 }
 
 /**
