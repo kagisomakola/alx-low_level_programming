@@ -5,7 +5,6 @@
  * sum_them_all - returns the sum of all its parameters.
  * @n: the number of parameters passed to the function.
  * @...: a variable number of parameter to calculate the sum 0
- f.
  * Return: If n == 0 - 0.
  * otherwise - the sum of all parameters.
  */
