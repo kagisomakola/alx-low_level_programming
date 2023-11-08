@@ -28,7 +28,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	{
 	printf("Error\n");
 	exit(99);
-	
+
 	}
 
 	if ((*op == '/' && num2 == 0) ||

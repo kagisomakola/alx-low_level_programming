@@ -52,7 +52,7 @@ int op_div(int a, int b)
 
 /**
  * op_mod - Returns the remainder of the division of two numbers.
- * @b: the first number.
+ * @a: the first number.
  * @b: the second number.
  * Return: the remainder of the division of a by b.
  */
@@ -60,4 +60,3 @@ int op_mod(int a, int b)
 {
 	return (a % b);
 }
-
